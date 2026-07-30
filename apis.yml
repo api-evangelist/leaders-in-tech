@@ -1,23 +1,80 @@
 aid: leaders-in-tech
 name: Leaders In Tech
-description: Leaders In Tech is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Leaders In Tech (LIT) is a leadership accelerator for startup founders and technology
+  executives, founded in 2015 and part of the Y Combinator Summer 2015 batch. Based in San Francisco,
+  it runs cohort-based fellowship programs grounded in experiential, feedback-rich learning: the
+  Founder Fellows Program (10 months, Series A to pre-IPO), the Grove Fellows Program (6 months,
+  pre-seed and seed founders), the Executive Fellows Program (6 months, senior leaders), plus
+  corporate workshops and retreats. Its primary teaching methodology is T-groups — small-group
+  experiential learning built on shared observation, collective accountability and repeated practice
+  — a model brought from the Stanford Graduate School of Business by co-founder Dr. Carole Robin.
+  Leaders In Tech reports more than 350 alumni founders running companies valued at over $75B. It is
+  a leadership-development organization, not a software or API provider: it publishes no public API,
+  developer portal, SDK or machine-readable interface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/690ce7e1b3ad3334ec32280c/69b8bb0b0a28ae01062c0580_6943179760d51c9324e5089e_256.jpg
 url: https://raw.githubusercontent.com/api-evangelist/leaders-in-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-api-surface
+x-api-surface: none
+x-api-surface-evidence: 'Probed 2026-07-19: no api/docs/developer/developers/app/status subdomain
+  (all NXDOMAIN); /.well-known/security.txt, /.well-known/openid-configuration,
+  /.well-known/oauth-authorization-server, /.well-known/api-catalog, /.well-known/ai-plugin.json,
+  /llms.txt and /openapi.json all returned 404 on www.leadersintech.org.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Leadership Development
+- Executive Education
+- Professional Training
+- Startups
+- Founders
+- Coaching
+- Community
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.leadersintech.org/
+- type: About
+  url: https://www.leadersintech.org/about-us
+- type: FAQ
+  url: https://www.leadersintech.org/faq
+- type: Contact
+  url: mailto:hello@leadersintech.org
+- type: Testimonials
+  url: https://www.leadersintech.org/testimonials
+- type: Network
+  url: https://www.leadersintech.org/our-network
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/innerspace-2
+- type: DomainSecurity
+  url: security/leaders-in-tech-domain-security.yml
+- type: LLMsTxt
+  url: llms/leaders-in-tech-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
