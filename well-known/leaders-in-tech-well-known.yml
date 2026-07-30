@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.leadersintech.org
+host: https://www.leadersintech.org
+result: none
+note: >-
+  No /.well-known/ discovery surface is published. Recorded as a negative result: Leaders In Tech is
+  a leadership-development organization with a Webflow marketing site and no API, developer portal or
+  machine-readable interface. No WellKnown or SecurityTxt pointer is wired in apis.yml because no
+  document was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_probes:
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /sitemap.xml
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: empty file (0 bytes)
+subdomains:
+- host: api.leadersintech.org
+  dns: NXDOMAIN
+- host: docs.leadersintech.org
+  dns: NXDOMAIN
+- host: developer.leadersintech.org
+  dns: NXDOMAIN
+- host: developers.leadersintech.org
+  dns: NXDOMAIN
+- host: app.leadersintech.org
+  dns: NXDOMAIN
+- host: status.leadersintech.org
+  dns: NXDOMAIN
