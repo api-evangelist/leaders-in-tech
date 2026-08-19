@@ -35,7 +35,7 @@ x-api-surface-evidence: 'Probed 2026-07-19: no api/docs/developer/developers/app
   (all NXDOMAIN); /.well-known/security.txt, /.well-known/openid-configuration,
   /.well-known/oauth-authorization-server, /.well-known/api-catalog, /.well-known/ai-plugin.json,
   /llms.txt and /openapi.json all returned 404 on www.leadersintech.org.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
