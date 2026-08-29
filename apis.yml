@@ -11,6 +11,17 @@ description: 'Leaders In Tech (LIT) is a leadership accelerator for startup foun
   Leaders In Tech reports more than 350 alumni founders running companies valued at over $75B. It is
   a leadership-development organization, not a software or API provider: it publishes no public API,
   developer portal, SDK or machine-readable interface.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
