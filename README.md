@@ -64,40 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Leaders In Tech (LIT) is a leadership accelerator for startup founders and technology executives,
-founded in 2015 and part of the Y Combinator Summer 2015 batch. Based in San Francisco, it runs
-cohort-based fellowship programs grounded in experiential, feedback-rich learning — the Founder
-Fellows Program (10 months, Series A to pre-IPO), the Grove Fellows Program (6 months, pre-seed and
-seed), and the Executive Fellows Program (6 months, senior leaders) — plus corporate workshops and
-retreats. Its primary teaching methodology is T-groups, brought from the Stanford Graduate School of
-Business by co-founder Dr. Carole Robin. LIT reports more than 350 alumni founders running companies
-valued at over $75B.
+Leaders In Tech (LIT) is a leadership accelerator for startup founders and technology executives, founded in 2015 and part of the Y Combinator Summer 2015 batch. Based in San Francisco, it runs cohort-based fellowship programs grounded in experiential, feedback-rich learning: the Founder Fellows Program (10 months, Series A to pre-IPO), the Grove Fellows Program (6 months, pre-seed and seed founders), the Executive Fellows Program (6 months, senior leaders), plus corporate workshops and retreats. Its primary teaching methodology is T-groups — small-group experiential learning built on shared observation, collective accountability and repeated practice — a model brought from the Stanford Graduate School of Business by co-founder Dr. Carole Robin. Leaders In Tech reports more than 350 alumni founders running companies valued at over $75B. It is a leadership-development organization, not a software or API provider: it publishes no public API, developer portal, SDK or machine-readable interface.
 
-- Website: https://www.leadersintech.org/
-- Y Combinator: https://www.ycombinator.com/companies/leaders-in-tech (S15, San Francisco, active)
-- Contact: hello@leadersintech.org
+**Areas:** Company · Leadership Development · Executive Education · Professional Training · Startups · Founders · Coaching · Community · Y Combinator
 
-Backed by: y-combinator
+## Leaders In Tech on APIs.io
 
-## API surface: none
+Everything profiled for Leaders In Tech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leaders-in-tech/](https://apis.io/providers/leaders-in-tech/)** — or go straight to one of the APIs or properties below.
 
-Leaders In Tech is a leadership-development organization, not a software or API provider. Probed
-2026-07-19:
+### Published properties
 
-- No `api`, `docs`, `developer`, `developers`, `app` or `status` subdomain resolves (all NXDOMAIN).
-- `/.well-known/security.txt`, `/.well-known/openid-configuration`,
-  `/.well-known/oauth-authorization-server`, `/.well-known/api-catalog`,
-  `/.well-known/ai-plugin.json`, `/llms.txt` and `/openapi.json` all return 404.
-- No developer portal, documentation, API reference, SDK, CLI, changelog, status page or public
-  Postman surface exists.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-No API-oriented artifacts (OpenAPI, packages, MCP, skills, scopes, conventions, errors, lifecycle)
-were produced, because there is nothing real to ground them in.
+#### Security (1)
 
-## Artifacts
+Authentication, trust centre, and vulnerability disclosure.
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/leaders-in-tech-domain-security.yml` | probed |
-| Well-known (negative result) | `well-known/leaders-in-tech-well-known.yml` | searched |
-| llms.txt | `llms/leaders-in-tech-llms.txt` | generated |
+- [Leaders In Tech Domain Security](https://apis.io/security/leaders-in-tech/leaders-in-tech-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.leadersintech.org/)
+
+## API Evangelist rating
+
+**Kin Score 3.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/leaders-in-tech/](https://apis.io/providers/leaders-in-tech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Leaders In Tech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leaders-in-tech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
